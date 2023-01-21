@@ -1,1 +1,3 @@
+#dump
 pg_dump -cC --inserts -U freecodecamp
+
