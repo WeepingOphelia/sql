@@ -1,3 +1,5 @@
 #dump
 pg_dump -cC --inserts -U freecodecamp
 
+#psql-variable
+PSQL="psql -X --username=freecodecamp --dbname=($DATABASE_NAME) --tuples-only -c"
